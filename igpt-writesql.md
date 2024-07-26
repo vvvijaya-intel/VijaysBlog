@@ -66,5 +66,7 @@ ORDER BY
     store_nbr, 
     date;
 
+### Conclusion: 
+This concludes the write up on how to utilize an AI agent to write SQL queries for you to improve your productivity, reduce typing (boring!) or learning SQL on your own.  
 
 
