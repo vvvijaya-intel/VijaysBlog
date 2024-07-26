@@ -32,7 +32,7 @@ In the absence of upload capability, we will have to feed the schema (table colu
         department_id INT,
         FOREIGN KEY (department_id) REFERENCES departments(department_id)
     );
-
+   (OR)
   - INSERT INTO departments (department_id, department_name) VALUES
     (1, 'Human Resources'),
     (2, 'Engineering');
