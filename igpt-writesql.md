@@ -1,7 +1,7 @@
-#Using iGPT to write SQL queries for you:
+# Using iGPT to write SQL queries for you:
 
 
-Use igpt.intel.com for following along. 
+### Use [igpt.intel.com](igpt.intel.com) for following along. 
 
 As of 7/26/2024, iGPT is missing feature(s) to upload a data file and writing a sql query against it. Hopefully the iGPT team adds this feature quickly as it is in their roadmap. 
 
