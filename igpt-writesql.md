@@ -1,11 +1,10 @@
 # Using iGPT to write SQL queries for you:
 
-
-### Use [igpt.intel.com](igpt.intel.com) for following along. 
+## Use [igpt.intel.com](igpt.intel.com) for following along. 
 
 As of 7/26/2024, iGPT is missing feature(s) to upload a data file and writing a sql query against it. Hopefully the iGPT team adds this feature quickly as it is in their roadmap. 
 
-#### Simple Example:
+### Simple Example:
 In the absence of upload capability, we will have to feed the schema (table columns, their datatypes, etc.) info for the agent to get contextual information from the user before it can write proper SQL queries. There are a few ways to accomplish this:
 
 1. Provide a Text Description:
@@ -42,7 +41,7 @@ Now that we have some context information for the agent, let's go paste the abov
 
 Let us now provide a specific instruction to the agent. Type in "write a sql query to count number of people with salary > 60000". You should now see a SQL query for finding the count of employees with salary greater than 60000 in the response. This is just a simple 101 example. Let us move to a more advanced example.
 
-#### Advanced Example: 
+### Advanced Example: 
 Assume a SQL table with following schema info: 
 CREATE TABLE transactions (
     date DATE,
