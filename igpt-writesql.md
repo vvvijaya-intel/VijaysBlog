@@ -1,5 +1,5 @@
-**Using iGPT to write SQL queries for you:
-**
+#Using iGPT to write SQL queries for you:
+
 
 Use igpt.intel.com for following along. 
 
