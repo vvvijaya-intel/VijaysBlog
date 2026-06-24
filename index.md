@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Vijay's Blog
+title: VVV's Blog
 ---
 
 A collection of how-tos and lessons learned in AI, Azure, and developer productivity.
