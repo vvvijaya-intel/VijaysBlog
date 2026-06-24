@@ -1,0 +1,14 @@
+title: Vijay's Blog
+description: Personal knowledge articles on AI, Azure, and dev productivity.
+author: vvvijaya-intel
+theme: minima
+
+minima:
+  skin: classic
+
+show_excerpts: true
+
+plugins:
+  - jekyll-feed
+
+permalink: /:year/:month/:day/:title/

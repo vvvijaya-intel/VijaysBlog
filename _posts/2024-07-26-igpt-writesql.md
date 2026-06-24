@@ -1,4 +1,9 @@
-# Using iGPT to write SQL queries for you:
+---
+layout: post
+title: "Using iGPT to Write SQL Queries for You"
+date: 2024-07-26
+tags: [ai, sql, igpt, productivity]
+---
 
 ## Use [igpt.intel.com](igpt.intel.com) for following along. 
 
@@ -45,14 +50,17 @@ Let us now provide a specific instruction to the agent. Type in "write a sql que
 
 ### Advanced Example: 
 Assume a SQL table with following schema info: 
+```sql
 CREATE TABLE transactions (
     date DATE,
     store_nbr INT,
     transactions INT
 );
+```
 
 You want to create a report of the rolling 7 day average number of transactions to identify trends. So we prompt the agent with the query "write sql query to find out the rolling average of transactions for each store and date order by store, date". As expected, we get the following response: 
 
+```sql
 SELECT 
     date,
     store_nbr,
@@ -67,8 +75,7 @@ FROM
 ORDER BY 
     store_nbr, 
     date;
+```
 
 ### Conclusion: 
 This concludes the write up on how to utilize an AI agent to write SQL queries for you to improve your productivity, reduce typing (boring!) or learning SQL on your own.  
-
-
