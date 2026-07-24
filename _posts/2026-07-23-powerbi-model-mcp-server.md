@@ -7,7 +7,7 @@ tags: [fabric, power-bi, semantic-model, mcp, dax, github-copilot, vscode]
 
 ## Overview
 
-**MCP (Model Context Protocol)** is an open standard that lets AI assistants connect to external tools and data sources. Think of it as a plug — you install an MCP server for a specific product (Fabric, Azure, Power BI, a database, etc.), and your AI assistant can suddenly *talk* to that product directly from chat. No switching apps, no copy-pasting URLs, no writing API calls by hand.
+**MCP (Model Context Protocol)** is an open standard that lets AI assistants connect to external tools and data sources. Think of it as a plug — like a USB port adapter, you install an MCP server for a specific product (Fabric, Azure, Power BI, a database, etc.), and your AI assistant can suddenly *talk* to that product directly from chat. No switching apps, no copy-pasting URLs, no writing API calls by hand.
 
 In this post I'll show how to install the **Power BI Modeling MCP Server** and use it — through plain English in GitHub Copilot — to connect to a live Fabric semantic model, explore its tables, and list every DAX measure.
 
@@ -178,8 +178,4 @@ Traditionally, inspecting a semantic model means opening Power BI Desktop, waiti
 
 The compound effect of having Fabric MCP + Power BI Model MCP + Azure MCP all active in one Copilot session is significant. Investigations that used to require switching between the Fabric portal, Power BI Desktop, and Azure Monitor now happen in a single chat thread.
 
----
 
-## What's Next
-
-In a follow-up post I'll walk through running DAX queries against the `Fact` table from VS Code chat, and then feeding those results into the planning AI agent to cross-reference against the DuckDB supply/demand data — the point where live semantic model data and local CSV-backed planning data finally converge.
