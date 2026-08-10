@@ -2,6 +2,7 @@ title: Vijay's Blog
 description: Personal knowledge articles on AI, Azure, and dev productivity.
 author: vvvijaya-intel
 theme: minima
+baseurl: /VijaysBlog
 
 minima:
   skin: classic

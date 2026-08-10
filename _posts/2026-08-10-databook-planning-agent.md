@@ -17,6 +17,8 @@ Click the chat input and type:
 
 Press **Enter**. Wait a few seconds while Sentry loads the available semantic-model properties into the chat interface. The Databook card then displays its current controls and choices, including Version Week, product type, product or marketing code name, fiscal quarters, Supply/Demand selections, and measures.
 
+![Databook card with live model controls]({{ '/assets/images/databook-card.png' | relative_url }})
+
 You can also provide initial context after the command:
 
 ```text
@@ -24,6 +26,14 @@ You can also provide initial context after the command:
 ```
 
 The initial text helps populate the Databook context before you choose the remaining values and run the query.
+
+---
+
+## Find a Product
+
+In the `SNOPDEMANDPRODUCTNM` field, type part of a product name and select **Find matching products**. Sentry displays a visible list of matching product names after the search completes. Select a product from the list; the list closes and the selected name is placed in the product field.
+
+This lookup does not run the Databook analysis. Choose the remaining controls, then select **Run analysis** when the query is ready.
 
 ---
 
