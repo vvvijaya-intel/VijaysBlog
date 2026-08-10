@@ -11,4 +11,8 @@ show_excerpts: true
 plugins:
   - jekyll-feed
 
+github:
+  metadata:
+    enabled: false
+
 permalink: /:year/:month/:day/:title/
