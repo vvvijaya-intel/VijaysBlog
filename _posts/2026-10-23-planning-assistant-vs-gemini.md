@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Gemini Enterprise vs Supply Planning Agent"
+date: 2026-10-23
+tags: [gemini, supply-planning, planning-assistant, agentic-ai, mcp]
+---
+
 # Gemini Enterprise vs Supply Planning Agent
 
 Date: Oct 23, 2026
